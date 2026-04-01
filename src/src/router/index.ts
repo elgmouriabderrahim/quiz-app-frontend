@@ -10,17 +10,20 @@ const router = createRouter({
     {
       path: '/',
       name: 'Home',
-      component: Home
+      component: Home,
+      meta: { title: 'Home' }
     },
     {
       path: '/quiz',
       name: 'Quiz',
-      component: Quiz
+      component: Quiz,
+      meta: { title: 'Quiz' }
     },
     {
       path: '/result',
       name: 'Result',
-      component: Result
+      component: Result,
+      meta: { title: 'Result' }
     }
   ]
 })
